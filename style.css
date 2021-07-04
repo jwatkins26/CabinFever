@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: steelblue;
+    
+    height: 90vh;
+    font-family: 'Audiowide', cursive;
+
+}
+
+#main {
+    background-image: url("images/test.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding-bottom: 150px;
+    opacity: 1;
+
+}
+
+#serv {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    padding-bottom: 150px;
+    opacity: 1;
+}
+
+#message {
+    color: white;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    background-color: navy;
+    font-family: 'Audiowide', cursive;
+    border-bottom: 2px solid white;
+
+}
+
+.navi {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.navi a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    
+
+}
+
+.navi a:hover {
+    color: steelblue;
+}
+
+.navi li{
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+    
+   
+}
+
+.logo {
+    color: white;
+    float: left;
+    
+}
+
+#container {
+    position: absolute;
+    background-color: navy;
+    opacity: 50%;
+    
+    
+
+}
+
+footer {
+    
+    font-family: 'Audiowide', cursive;
+    color: white;
+    background-color: navy;
+    border-top: 2px solid white;
+    position: relative;
+    height: 5vh;
+
+}
